@@ -2,71 +2,70 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Hede Hodo - Personal Page</title>
-    <style>
-        body { 
-            font-family: Arial, sans-serif; 
-            max-width: 800px; 
-            margin: 0 auto; 
-            padding: 20px; 
-            line-height: 1.6; 
-            color: #333;
-        }
-        header { 
-            background-color: #4a4a4a; 
-            color: white;
-            text-align: center; 
-            padding: 30px; 
-            border-radius: 10px;
-        }
-        main {
-            margin-top: 20px;
-        }
-        section {
-            margin-bottom: 20px;
-            padding: 15px;
-            background-color: #f9f9f9;
-            border-radius: 5px;
-        }
-        footer {
-            text-align: center;
-            color: #777;
-            padding: 10px;
-            border-top: 1px solid #ddd;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hede Hodo - Senior Software Developer Portfolio">
+    <title>Hede Hodo - Software Developer</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <h1>Hede Hodo</h1>
-        <p>Senior Software Developer | Tech Innovator</p>
+        <div class="header-content">
+            <h1>Hede Hodo</h1>
+            <p class="tag-line">Senior Software Developer | Tech Innovator</p>
+        </div>
+        <div class="code-snippet">
+            <pre id="dev-info"></pre>
+        </div>
     </header>
 
     <main>
-        <section>
-            <h2>About Me</h2>
-            <p>A passionate software developer with extensive experience in web technologies and cloud solutions. I specialize in creating scalable and efficient software applications that solve real-world problems.</p>
-        </section>
+        <div class="container">
+            <section>
+                <h2>About Me</h2>
+                <p>Passionate software developer focused on building scalable, efficient applications. I believe in clean code, continuous learning, and the power of open source.</p>
+                <p>Daily working with modern tech stacks and always exploring new technologies to solve complex problems.</p>
+            </section>
 
-        <section>
-            <h2>Technical Skills</h2>
-            <ul>
-                <li>Languages: Python, JavaScript, Java, C++</li>
-                <li>Web Technologies: React, Node.js, HTML5, CSS3</li>
-                <li>Cloud & DevOps: AWS, Docker, Kubernetes</li>
-                <li>Databases: MongoDB, PostgreSQL, MySQL</li>
-            </ul>
-        </section>
+            <section>
+                <h2>Technical Stack</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">Python</div>
+                    <div class="skill-item">JavaScript</div>
+                    <div class="skill-item">React</div>
+                    <div class="skill-item">Node.js</div>
+                    <div class="skill-item">Docker</div>
+                    <div class="skill-item">Kubernetes</div>
+                    <div class="skill-item">AWS</div>
+                    <div class="skill-item">MongoDB</div>
+                    <div class="skill-item">PostgreSQL</div>
+                </div>
+            </section>
+        </div>
 
-        <section>
-            <h2>Professional Interests</h2>
-            <p>Machine Learning, Cloud Computing, Open Source Contributions, Software Architecture</p>
+        <section class="projects">
+            <h2>Featured Projects</h2>
+            <div class="project-card">
+                <h3>Cloud Migration Tool</h3>
+                <p>Automated cloud migration tool that simplifies the process of moving applications to cloud infrastructure.</p>
+                <p><span class="highlight">Tech:</span> Python, AWS, Docker</p>
+            </div>
+            <div class="project-card">
+                <h3>DevOps Pipeline Generator</h3>
+                <p>CLI tool for generating customized CI/CD pipelines with best practices built-in.</p>
+                <p><span class="highlight">Tech:</span> Node.js, GitHub Actions, Jest</p>
+            </div>
         </section>
     </main>
 
     <footer>
         <p>© 2024 Hede Hodo. All rights reserved.</p>
-        <p>Contact: hede.hodo@example.com</p>
+        <div class="contact-links">
+            <a href="mailto:hede.hodo@example.com">Email</a>
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
     </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
